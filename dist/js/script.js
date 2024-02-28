@@ -89,7 +89,7 @@ const select = {
 
       thisProduct.accordionTrigger.addEventListener('click', function(event) {
         event.preventDefault()
-        const activeProduct = thisProduct.element.querySelector('.product.active')
+        const activeProduct = document.querySelector('.product.active')
         if (activeProduct && activeProduct !== thisProduct.element) {
           activeProduct.classList.remove('active');
         }
