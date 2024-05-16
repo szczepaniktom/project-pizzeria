@@ -135,7 +135,7 @@ class Product {
         }
         );
         thisProduct.element.dispatchEvent(event);
-    };
+    }
 
     prepareCartProduct(){
       const thisProduct = this;
